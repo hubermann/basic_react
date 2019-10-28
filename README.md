@@ -1,3 +1,63 @@
+# Proyecto con React JS
+Pasos fundamentales para instalar, generar estructura de un proyecto y crear componentes.
+### Instalar React JS
+Vamos a necesitar NodeJS.
+Luego en la consola vamos a actualizar npm a la ultima version disponible con el el comando:
+
+`npm install -g  npm@latest`
+
+Con npm - version vamos a poder ver que version ahora tenemos instalada.
+Es recomendable correr el comando:
+
+`npm cache clean - force`
+
+para limpiar el cache y permitir que se instale la version mas actualizada de React.
+Ahora lo que vas a hacer es instalar unpaquete de Facebook llamado *create-react-app*
+
+`npm install -g create-react-app`
+
+Ahora una vez instalado este cli vamos apoder crear proyectos usando el comando:
+
+`create-react-app NOMBRE-DEL-PROYECTO`
+
+Esto va encargarse de crear la estructura basica de nuestro proeycto y veremos una serie de comando para poder utilizar en nuestro desarrollo. Cómo por ejemplo para correr nuestro serviodr local, incluye librerias para poder actualziar nuestras modificaciones y nos provee un package.json donde vemos las librerias utilizadas, etc.
+
+### Estructura de un proyecto
+
+
+### Componentes
+
+se guardan dentro de /src
+Puede crearse un folder components asi tener mas organizacion. tambien un folder assets para guardas los assets de ese componente. Luego hay que dentro de los componentes verificar que esten correctas las rutas.
+Los nombres de los componentes empiezan con mayusculas.
+
+MiComponente.js
+Luego en su interior importamos React de la siguiente forma:
+
+`import React from react;`
+
+`class MiComponente extends React.component{
+    #mi codigo
+}`
+
+los componentes llevan un objeto render que se encarga de devolver el contenido de dicho componente. Tiene un return que abre parentesis y en su interior lleva el codigo a retornar.
+
+` render (){ return( <h1>Mi titulo</h1> ); } `
+
+Luego dicho compnente requiere ser exportado para estar disponible en las paginas necesarias con el codigo:
+`export default Micomponente;`
+
+luego en el componente principal lo importamos para poder utilizarlo.
+`import Micomponente from './componentes/MiComponente';`
+
+Luego para insertarlo en el componente principal lo insertamos usand la etiqueta `<MiComponente />`
+
+
+
+
+
+### Readme original del proyecto
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
