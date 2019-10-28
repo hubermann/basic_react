@@ -22,6 +22,31 @@ Ahora una vez instalado este cli vamos apoder crear proyectos usando el comando:
 
 Esto va encargarse de crear la estructura basica de nuestro proeycto y veremos una serie de comando para poder utilizar en nuestro desarrollo. Cómo por ejemplo para correr nuestro serviodr local, incluye librerias para poder actualziar nuestras modificaciones y nos provee un package.json donde vemos las librerias utilizadas, etc.
 
+
+Initialized a git repository.
+
+Success! Created basic_react at /home/sas/Development/react/basic_react
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd basic_react
+  npm start
+
+
 ### Estructura de un proyecto
 
 

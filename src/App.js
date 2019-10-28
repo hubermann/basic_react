@@ -1,6 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/logo.svg';
+import './assets/App.css';
+
+// Importar Componentes
+import Calculadora from './components/Calculadora'
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Calculadora />
       </header>
     </div>
   );
