@@ -75,7 +75,17 @@ Luego dicho compnente requiere ser exportado para estar disponible en las pagina
 luego en el componente principal lo importamos para poder utilizarlo.
 `import Micomponente from './componentes/MiComponente';`
 
-Luego para insertarlo en el componente principal lo insertamos usand la etiqueta `<MiComponente />`
+Luego para insertarlo en el componente principal lo insertamos usando la etiqueta `<MiComponente />`
+
+
+
+### Instalar bootstrap  
+
+Correr:
+
+`npm install react-bootstrap bootstrap`
+
+instalar los estilos desde el CDN de bootstrap en el index que se encuentra dentro de /public
 
 
 

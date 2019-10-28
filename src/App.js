@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './assets/logo.svg';
 import './assets/App.css';
 
+//test bootstrap component button
+import { Button } from 'react-bootstrap';
 // Importar Componentes
 import Calculadora from './components/Calculadora'
 
@@ -13,6 +15,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button variant="danger">Danger</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
